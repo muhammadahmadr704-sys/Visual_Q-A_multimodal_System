@@ -42,6 +42,7 @@ Classification Head
 Predicts one of four answer choices (A, B, C, or D)
 
 **Key Features**
+
 Custom LLaVA-style multimodal architecture,
 LongCLIP vision encoding,
 Qwen3 language reasoning,
@@ -55,8 +56,8 @@ Performance Optimisation Experiments
 
 The project was trained and evaluated on a multimodal Visual Question Answering dataset consisting of:
 
-Images
-Multiple choice questions
+Images,
+Multiple choice questions and 
 Four answer options per sample
 
 The task required predicting the correct answer choice based on both visual and textual understanding.
