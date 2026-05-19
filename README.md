@@ -3,7 +3,7 @@ Multimodal Visual Question Answering using LongCLIP vision encoding and Qwen3 la
 
 A custom LLaVA style multimodal Visual Question Answering (VQA) system integrating a LongCLIP vision encoder with the Qwen3 language model for image-based multiple-choice reasoning tasks.
 
-Overview
+**Overview**
 
 This project implements a multimodal Visual Question Answering architecture designed to jointly process visual and textual information for multiple choice question answering. The system combines pretrained vision language representations with parameter efficient fine-tuning techniques to improve multimodal reasoning performance.
 
@@ -17,7 +17,7 @@ Training stability and optimisation techniques
 
 The final model achieved a validation accuracy improvement from approximately 24.97% to 69.21% through systematic experimentation and architectural optimisation.
 
-Architecture
+**Architecture**
 
 The multimodal pipeline consists of:
 
@@ -41,28 +41,17 @@ Classification Head
 
 Predicts one of four answer choices (A, B, C, or D)
 
-Key Features
-Custom LLaVA-style multimodal architecture
-LongCLIP vision encoding
-Qwen3 language reasoning
-LoRA fine-tuning for memory-efficient training
-Structured instruction-style prompt engineering
-Residual multimodal projection layers
-Cosine annealing learning rate scheduling
-ColorJitter data augmentation
-Extensive experimentation and ablation analysis
+**Key Features**
+Custom LLaVA-style multimodal architecture,
+LongCLIP vision encoding,
+Qwen3 language reasoning,
+LoRA fine-tuning for memory-efficient training,
+Structured instruction-style prompt engineering,
+Residual multimodal projection layers,
+Cosine annealing learning rate scheduling,
+ColorJitter data augmentation,
+Extensive experimentation and ablation analysis and
 Performance Optimisation Experiments
-
-The following techniques were investigated to improve validation accuracy and model stability:
-
-Experiment	Purpose
-LoRA Fine-Tuning	Efficient adaptation of Qwen3 attention layers
-Structured Prompt Engineering	Improve reasoning behaviour
-Residual Projection Layers	Better multimodal alignment
-Batch Size Optimisation	Improve training stability
-Data Augmentation	Improve generalisation
-Cosine Annealing Scheduler	Stabilise optimisation
-
 
 The project was trained and evaluated on a multimodal Visual Question Answering dataset consisting of:
 
