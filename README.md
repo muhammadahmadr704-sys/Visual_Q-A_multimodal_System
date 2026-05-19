@@ -9,10 +9,10 @@ This project implements a multimodal Visual Question Answering architecture desi
 
 The project focuses on:
 
-Vision-language alignment
-Multimodal feature fusion
-Parameter efficient fine-tuning using LoRA
-Prompt engineering for reasoning improvement
+Vision-language alignment,
+Multimodal feature fusion,
+Parameter efficient fine-tuning using LoRA,
+Prompt engineering for reasoning improvement,
 Training stability and optimisation techniques
 
 The final model achieved a validation accuracy improvement from approximately 24.97% to 69.21% through systematic experimentation and architectural optimisation.
@@ -22,15 +22,25 @@ Architecture
 The multimodal pipeline consists of:
 
 LongCLIP Vision Encoder
+
 Extracts visual embeddings from input images
+
 Qwen3 Language Model
+
 Processes textual questions and answer options
+
 Multimodal Projection Layer
+
 Aligns visual embeddings with the Qwen3 hidden representation space
+
 Fusion Mechanism
+
 Combines projected visual tokens with tokenised textual inputs
+
 Classification Head
+
 Predicts one of four answer choices (A, B, C, or D)
+
 Key Features
 Custom LLaVA-style multimodal architecture
 LongCLIP vision encoding
