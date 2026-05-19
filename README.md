@@ -41,6 +41,9 @@ Classification Head
 
 Predicts one of four answer choices (A, B, C, or D)
 
+<img width="1536" height="1024" alt="vqa" src="https://github.com/user-attachments/assets/cbdf3f1c-e7a2-4e13-bf93-0a0eda16d018" />
+
+
 **Key Features**
 
 Custom LLaVA-style multimodal architecture,
