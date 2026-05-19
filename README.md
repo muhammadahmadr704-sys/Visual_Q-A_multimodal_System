@@ -64,4 +64,4 @@ Multiple choice questions and
 Four answer options per sample
 
 The task required predicting the correct answer choice based on both visual and textual understanding.
-
+**Dataset not included due to size/privacy restrictions**.
