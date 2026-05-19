@@ -65,3 +65,12 @@ Four answer options per sample
 
 The task required predicting the correct answer choice based on both visual and textual understanding.
 **Dataset not included due to size/privacy restrictions**.
+
+# Results
+
+| Model Configuration | Validation Accuracy |
+|---|---|
+| Frozen Baseline | 24.97% |
+| + LoRA Fine-tuning | 58.52% |
+| + Structured Prompt | 64.70% |
+| Final Optimised Model | 69.21% |
